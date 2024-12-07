@@ -11,9 +11,9 @@ CAUTION: Check & understand the scripts before you proceed.
 CSF (ConfigServer Security & Firewall) is a commonly used firewall for Linux servers. It provides an easy-to-use interface for managing firewall rules and can help improve the security of your server.
 
 Just run this below command as ROOT user from your linux terminal. (Tested with HestiaCP v1.7.3 & Ubuntu 20.x)
-
-rm hestia_csf_install.sh* | wget https://raw.githubusercontent.com/vvcares/hestia/master/hestia_csf_install.sh && bash hestia_csf_install.sh
-
+``
+rm hestia_csf_install.sh* | wget https://raw.githubusercontent.com/jeimerson/hestia_csf/master/hestia_csf_install.sh
+``
 The above command will do as below:
 
     Download the script from vvcares-github repo
